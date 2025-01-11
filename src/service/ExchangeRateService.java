@@ -12,7 +12,7 @@ import java.util.Map;
 public class ExchangeRateService {
     private final HttpClient httpClient;
     private final Gson gson;
-    private final String API_URL = "https://v6.exchangerate-api.com/v6/97e791a4a12f34ed4c608a04/latest/";
+    private final String API_URL = "https://v6.exchangerate-api.com/v6/API_KEY/latest/";
 
     public ExchangeRateService() {
         this.httpClient = HttpClient.newHttpClient();
